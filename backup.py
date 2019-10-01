@@ -1,17 +1,6 @@
 import os
 import config
 
-# How to Install
-'''
-	1. mkdir /var/database_backups
-	2. cd /var/database_backups
-	3. wget [link](Linux build from https://github.com/prasmussen/gdrive)
-	4. sudo -i
-	5. chmod +x (NAME OF DOWNLOADED FILE)
-	6. mv (NAME OF DOWNLOADED FILE) /usr/local/bin/gdrive
-	7. run `gdrive about` and authenticate
-'''
-
 def log(msg):
 	print(msg)
 	file.write("\n" + msg)
